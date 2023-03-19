@@ -1,4 +1,4 @@
-// Defined  array named tweets that hold  objects with  information about a given tweet, username, day of tweet and age of a person tweeting.
+// Defined  array named tweets that hold  objects with information about a given tweet, username, day of tweet and age of a person tweeting.
 let tweets = [
         {
         tweet: `well,well,well, if it isn't the consequences of my own actions`,
@@ -76,12 +76,13 @@ while ( counter < tweets.length )
         console.log( `${ tweets[counter][`tweet`] } ${ tweets[counter][`username`] } ${ tweets[counter][`created_at`] }` )
   
     }
-    // counter is set to it's self and +1 so it increments the the loop from 0 t0 1 and this will continue untill counter is 10 and the condtion for the while loop  is meet
+    // counter is set to itself and +1 so it increments the the loop from 0 t0 1 and this will continue untill counter is 10 and the condition for the while loop  is met
     counter = counter + 1
     
 }
 
-// created a for loop that loops through the array tweets which is a collection  of objets with information
+// created a for loop that loops through the array named  tweets that holds  is a collection  of objets with key value of  information
+// counter is set to 0 initially.each time the loop gose through the array the counter will add 1 to itsself  untill counter = to the lenght of the tweets bojects;
 
 for ( let counter = 0; counter < tweets.length; counter = counter + 1 )
 {
